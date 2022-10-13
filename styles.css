@@ -1,0 +1,88 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    margin: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header {
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+}
+
+header img {
+    width: 30rem;
+}
+
+.main-info {
+    width: 100%;
+    height: 15rem;
+    margin-bottom: 3rem;
+}
+
+.main-info h1 {
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-size: 4rem;
+    letter-spacing: 1px;
+}
+
+.main-info p {
+    margin-top: 1rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+}
+
+.date {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.date p {
+    color: white;
+    font-size: 2.4rem;
+    font-family: 'Kanit', sans-serif;
+}
+
+.adress {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.adress p {
+    color: white;
+    font-size: 2.2rem;
+    font-family: 'Kanit', sans-serif;
+}
+
+.adress button {
+    width: 13rem;
+    height: 5rem;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 1.6rem;
+}
+
+footer img {
+    width: 30rem;
+}
+
